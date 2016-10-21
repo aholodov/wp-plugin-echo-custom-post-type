@@ -1,0 +1,27 @@
+.pt-eco-list:before, .pt-eco-list:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.pt-eco-item {
+    float: left;
+    padding: 0 15px;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .pt-eco-col-6 {
+        width: 50%;
+    }
+    .pt-eco-col-4 {
+        width: 33.3333%;
+    }
+    .pt-eco-col-3 {
+        width: 25%;
+    }
+    .pt-eco-col-2 {
+        width: 16.666666%;
+    }
+    .pt-eco-col-1 {
+        width: 8.33333333%;
+    }
+}
